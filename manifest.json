@@ -1,0 +1,24 @@
+{
+    "name": "Log Update",
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2oUIpEP3eBnPmWLMtz0HVcDnSt+51MZyayBTKXy/cFsPoPGD4jvIsibnV0UldboE8UBhGCLaBoQWgRUYpJk1DZSTuM6MIVOE2EVS8v3m8Q8Uy2cOTalG0YzBB+KxiP/ZBHFefB+z6qHpMKWb7LHuWsmFVC07Tq/75CfBrZlPNFwteRLfEJ21uQL+uDTYhJf1S97VVFyyiJziIxRjEtC/iwc1EB5eTwP0Ew/k2GTw8+lwCuG6u8e2L8v2vyu11No3NSsXIipFGLSlQUruf+/SeYBewn/tZ7szu5BRw7qH3HMmVTWzbW6BEu5z31dbT6OiQuarDYwRYiUjw3iV+IE7/wIDAQAB",
+    "version": "1.0",
+    "oauth2": {
+      "client_id": "72206277432-44t9uvmq5iiutajqqt8iui3ja94vagdf.apps.googleusercontent.com",
+      "scopes":["https://www.googleapis.com/auth/spreadsheets"]
+    },
+    "description": "This application is basicall designed to update logs",
+    "author":"Anshu Kumar",
+    "manifest_version": 2,
+    "browser_action": {
+      "default_title": "Update Your Log Sheet"
+    },
+    "permissions": [
+      "identity"
+    ],
+    "background": {
+      "scripts": [
+        "background.js"
+      ],
+      "persistent": false
+    }
+  }
