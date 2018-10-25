@@ -6,6 +6,9 @@
       "client_id": "72206277432-44t9uvmq5iiutajqqt8iui3ja94vagdf.apps.googleusercontent.com",
       "scopes":["https://www.googleapis.com/auth/spreadsheets"]
     },
+    "permissions": [
+          "storage"
+        ],
     "description": "This application is basicall designed to update logs",
     "author":"Anshu Kumar",
     "manifest_version": 2,
@@ -17,7 +20,7 @@
     ],
     "background": {
       "scripts": [
-        "background.js"
+        "js/background.js"
       ],
       "persistent": false
     }
